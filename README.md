@@ -14,6 +14,12 @@ And there are several types of commitment schemes:
   - Vector commitments.
   - Matrix commitments.
   - Polynomial commitments.
+
+
+## Surveys on commitment schemes
+
+- [Commitment Schemes and Zero-Knowledge Protocols(2017)](https://pascholl.github.io/download/ComZK08.pdf)
+
 ## Single-value commitment schemes
 
 ### Papers
@@ -26,5 +32,16 @@ And there are several types of commitment schemes:
 ### papers
 
 - [Functional Commitment Schemes: From Polynomial Commitments to Pairing-Based Accumulators from Simple Assumptions](https://eprint.iacr.org/2016/766)
+- [Efficient Functional Commitments: How to Commit to a Private Function](https://eprint.iacr.org/2021/1342)
 - [Functional Commitments for All Functions, with Transparent Setup and from SIS](https://eprint.iacr.org/2022/1368)
 - [Succinct Vector, Polynomial, and Functional Commitments from Lattices](https://eprint.iacr.org/2022/1515)
+
+
+##  Commitment mechanism with one or several certain properties
+
+
+Those commitment schemes are not necessarily efficient, but they have some nice properties, such as timed commitment, homomorphic commitment, etc.
+### Timed commitment
+
+### Papers
+- [Timed Commitments](https://www.iacr.org/archive/crypto2000/18800237/18800237.pdf)
