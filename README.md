@@ -16,20 +16,28 @@ And there are several types of commitment schemes:
   - Polynomial commitments.
 
 
-## Surveys on commitment schemes
+## 1. Surveys on commitment schemes
 
 - [Commitment Schemes and Zero-Knowledge Protocols(2017)](https://pascholl.github.io/download/ComZK08.pdf)
 
-## Single-value commitment schemes
+## 2. Single-value commitment schemes
 
-### Papers
+### 2.1. Papers
 
-### Implementations
+### 2.2. Implementations
 
 
-## Funtional commitment schemes
+## 3. Vector commitment schemes
+Vector commitment is a short commitment to an ordered sequencer of values, which support to open the commitment at specific positions with small proof without opening the whole vector. Therefore, the vector commitment should satisifies the property: **position binding**.
+The ubiquitous example of vector commitment is Merkle tree.
 
-### papers
+The property of Vector commitment schemes:
+1. Position binding: The commitment is binding to the position of the opened value.
+2. Efficiently aggregatable: combination of commitments is efficient.
+3. maintainable: The commitment can be updated efficiently, which means updating all proofs in sublinear time.
+## 4. Funtional commitment schemes
+
+### 4.1. papers
 
 - [Functional Commitment Schemes: From Polynomial Commitments to Pairing-Based Accumulators from Simple Assumptions](https://eprint.iacr.org/2016/766)
 - [Efficient Functional Commitments: How to Commit to a Private Function](https://eprint.iacr.org/2021/1342)
@@ -37,11 +45,11 @@ And there are several types of commitment schemes:
 - [Succinct Vector, Polynomial, and Functional Commitments from Lattices](https://eprint.iacr.org/2022/1515)
 
 
-##  Commitment mechanism with one or several certain properties
+##  5. Commitment mechanism with one or several certain properties
 
 
 Those commitment schemes are not necessarily efficient, but they have some nice properties, such as timed commitment, homomorphic commitment, etc.
-### Timed commitment
+### 5.1. Timed commitment
 
 ### Papers
 - [Timed Commitments](https://www.iacr.org/archive/crypto2000/18800237/18800237.pdf)
