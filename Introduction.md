@@ -19,7 +19,8 @@ According to the computing power of verifiers or provers, the commitment schemes
 
 
 And there are several types of commitment schemes:
-- Single-value commitment schemes
+- Single-value commitment schemes.
+- Cryptographic accumulator.
 - Functional commitment schemes which can be viewed as a generalization of 
   - Vector commitments.
   - Matrix commitments.
@@ -29,35 +30,11 @@ And there are several types of commitment schemes:
 ## Surveys on commitment schemes
 
 - [Commitment Schemes and Zero-Knowledge Protocols(2017)](https://pascholl.github.io/download/ComZK08.pdf)
+- [An Overview of Cryptographic Accumulators](https://arxiv.org/pdf/2103.04330.pdf)
 
 ## Single-value commitment schemes
 
 ### Papers
-
-
-## Vector commitment schemes
-Vector commitment is a short commitment to an ordered sequencer of values, which support to open the commitment at specific positions with small proof without opening the whole vector. Therefore, the vector commitment should satisifies the property: **position binding**.
-The ubiquitous example of vector commitment is Merkle tree.
-
-The property of Vector commitment schemes:
-1. Position binding: The commitment is binding to the position of the opened value.
-2. Efficiently aggregatable: combination of commitments is efficient.
-3. maintainable: The commitment can be updated efficiently, which means updating all proofs in sublinear time.
-
-### Papers
-
-- [Hyperproof](https://eprint.iacr.org/2021/599.pdf)
-- [Matproof](https://dl.acm.org/doi/pdf/10.1145/3548606.3560591)
-## Funtional commitment schemes
-
-Functional commitment schemes are a generalization of vector commitment schemes. The commitment is a short commitment to a function, which support to open the commitment at specific positions with small proof without opening the whole function. 
-### Papers
-
-- [Functional Commitment Schemes: From Polynomial Commitments to Pairing-Based Accumulators from Simple Assumptions](https://eprint.iacr.org/2016/766)
-- [Efficient Functional Commitments: How to Commit to a Private Function](https://eprint.iacr.org/2021/1342)
-- [Functional Commitments for All Functions, with Transparent Setup and from SIS](https://eprint.iacr.org/2022/1368)
-- [Succinct Vector, Polynomial, and Functional Commitments from Lattices](https://eprint.iacr.org/2022/1515)
-
 
 ## Commitment mechanism with one or several certain properties
 
