@@ -7,6 +7,9 @@ The property of Vector commitment schemes:
 2. Efficiently aggregatable: combination of commitments is efficient.
 3. maintainable: The commitment can be updated efficiently, which means updating all proofs in sublinear time.
 
+## Hyperproof
+Hyperproof is a vector commitment scheme based on the discrete log assumption. It is a generalization of Merkle tree, which can be used to prove the correctness of the execution of a program on a large dataset. The proof size is logarithmic in the size of the dataset.
+
 ## Papers
 
 - [Hyperproof](https://eprint.iacr.org/2021/599.pdf)
