@@ -1,4 +1,4 @@
-# Vector Commitment Scheme
+# Vector Commitment
 Vector commitment is a short commitment to an ordered sequencer of values, which support to open the commitment at specific positions with small proof without opening the whole vector. Therefore, the vector commitment should satisifies the property: **position binding**.
 The ubiquitous example of vector commitment is Merkle tree.
 
