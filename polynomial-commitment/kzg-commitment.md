@@ -1,2 +1,0 @@
-# KZG Commitment
-
